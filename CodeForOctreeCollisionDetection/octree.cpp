@@ -7,12 +7,6 @@
 //
 
 #include "octree.hpp"
-/*
-float RandomFloat()
-{
-    return (float)rand() / ((float)RAND_MAX + 1);
-}
- */
 
 Octree::Octree(Vec3f c1, Vec3f c2, int _depth)
 {
